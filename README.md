@@ -16,7 +16,7 @@ Note that IANAC (I am not a cryptologist), so this will surely be flawed in some
   Supports certificates signed with RSASSA-PSS!
   Still need support for X.500 names (AttributeValueAssertions with well-known object identifiers).
   Right now, only common name (2.5.4.3), country (2.5.4.6) and organization (2.5.4.10) are supported.
-  No specific v3 extensions support yet. Need to implement some standard and well-known types. 
+  No specific v3 extensions support yet. Need to implement some standard and well-known types.
   UTCTime is not finished
 * Removed erroneous and unnecessary dependency from api to impl module
 
